@@ -6,7 +6,7 @@ from google import genai
 from google.genai import types
 
 # ── PAGE CONFIGURATION ───────────────────────────────────────────────────────
-st.set_page_config(page_title="DataAgent AI - Enterprise BI", page_icon="📈", layout="wide")
+st.set_page_config(page_title="AI Data Agent - Enterprise BI", page_icon="📈", layout="wide")
 
 # Custom CSS for Tab font size, spacing, and AI chat text output
 st.markdown("""
