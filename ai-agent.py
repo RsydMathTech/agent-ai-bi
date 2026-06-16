@@ -52,7 +52,7 @@ with st.sidebar:
                     client = genai.Client(api_key=api_key)
                     # Lightweight test with 1 token limit to save quota
                     client.models.generate_content(
-                        model='gemini-2.0-flash',
+                        model='gemini-3.5-flash',
                         contents="hi",
                         config=types.GenerateContentConfig(max_output_tokens=1)
                     )
@@ -249,7 +249,7 @@ if uploaded_files:
                                     full_prompt = f"Data Context:\n{schema_info}\n\nSummary Stats:\n{summary_stats}\n{agg_context}\nQuestion: {user_query}"
 
                                     response = client.models.generate_content(
-                                        model='gemini-2.0-flash',
+                                        model='gemini-3.5-flash',
                                         contents=full_prompt,
                                         config=types.GenerateContentConfig(system_instruction=sys_inst, temperature=0.1)
                                     )
