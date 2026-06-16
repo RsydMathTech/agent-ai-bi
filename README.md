@@ -48,7 +48,8 @@ Distributed under the **MIT License**. See LICENSE for more information.
 ## 👨‍💻 Developer Profile
 
 * **Developer:** Muhammad Abdurrasyid Fahrurozi
-* **LinkedIn:** M. Abdurrasyid
+* **LinkedIn:** https://www.linkedin.com/in/m-abdurrasyid/
+* **GitHub Repository:** https://github.com/RsydMathTech/agent-ai-bi
 * **Company:** RsydMathTech
 
 *"Turning raw enterprise data into precise, automated business actions."*
