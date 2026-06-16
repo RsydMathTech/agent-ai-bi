@@ -80,7 +80,7 @@ with st.sidebar:
         unsafe_allow_html=True
     )
 
-st.title("📈 DataAgent AI — Enterprise Business Intelligence")
+st.title("📈 AI Data Agent - Enterprise Business Intelligence")
 st.markdown("Automated BI system with Multi-Dataset support & Token-Efficient AI.")
 
 # ── AUTO-HEURISTIC SCHEMA MAPPING ───────────────────────────────────────────
